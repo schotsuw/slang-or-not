@@ -1,0 +1,23 @@
+# Virtual environments
+nlpfall2026venv/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
+
+# Local notes (not committed)
+PLAN.md
+
+# Raw dataset (check licence before committing)
+dataset-slangtrack/
