@@ -25,14 +25,19 @@ The course provides a ready-made environment, so you don't need to install anyth
    source nlpfall2026venv/bin/activate
    ```
 
-4. Clone this repository and `cd` into it.
+4. Clone this repository and move into it:
+
+   ```bash
+   git clone https://github.com/schotsuw/slang-or-not.git
+   cd slang-or-not
+   ```
 
 ### Option 2: Your own machine
 
 Requires Python 3.13.
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/schotsuw/slang-or-not.git
 cd slang-or-not
 python3 -m venv nlpfall2026venv
 source nlpfall2026venv/bin/activate
