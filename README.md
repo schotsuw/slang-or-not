@@ -36,6 +36,8 @@ The course provides a ready-made environment, so you don't need to install anyth
 
 Requires Python 3.13.
 
+**macOS / Linux**
+
 ```bash
 git clone https://github.com/schotsuw/slang-or-not.git
 cd slang-or-not
@@ -44,8 +46,20 @@ source nlpfall2026venv/bin/activate
 pip install -r requirements.txt
 ```
 
-To activate the environment again later, run `source nlpfall2026venv/bin/activate` from inside the project folder.
+**Windows (PowerShell)**
+
+```powershell
+git clone https://github.com/schotsuw/slang-or-not.git
+cd slang-or-not
+py -3.13 -m venv nlpfall2026venv
+nlpfall2026venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+If PowerShell says running scripts is disabled, run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once, then try activating again. In Command Prompt, activate with `nlpfall2026venv\Scripts\activate.bat` instead.
+
+To activate the environment again later, run the activate command from inside the project folder.
 
 ### Data
 
-The dataset is not included in this repository. Download it from the [SlangTrack GitHub repository](https://github.com/SlangTrack/SlangTrack-ST-/) and place it in the project folder.
+The dataset is included in `dataset-slangtrack/`, so no download is needed. It comes from the [SlangTrack GitHub repository](https://github.com/SlangTrack/SlangTrack-ST-/), whose licence allows sharing it for research and development purposes.
