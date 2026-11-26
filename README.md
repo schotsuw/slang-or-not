@@ -62,4 +62,4 @@ To activate the environment again later, run the activate command from inside th
 
 ### Data
 
-The dataset is included in `dataset-slangtrack/`, so no download is needed. It comes from the [SlangTrack GitHub repository](https://github.com/SlangTrack/SlangTrack-ST-/), whose licence allows sharing it for research and development purposes.
+The dataset is included in `data/raw/`, so no download is needed. It comes from the [SlangTrack GitHub repository](https://github.com/SlangTrack/SlangTrack-ST-/), whose licence allows sharing it for research and development purposes. We use only the 4,416 CCOHA instances, because the public release omits the text of the tweets (confirmed with our instructor).
