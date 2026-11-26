@@ -16,5 +16,6 @@ __pycache__/
 # Secrets
 .env
 
-# Local notes (not committed)
-PLAN.md
+
+# Local plan (not committed for now)
+docs/PLAN.md
